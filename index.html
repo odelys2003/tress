@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<title> Practica 1</title>
+</head> 
+<body> 
+
+<div data-role="page" id="page" data-theme="e">
+	<div data-role="header">
+		<h1>Muebles</h1>
+	</div>
+	<div data-role="content">	
+    <div align="center">
+    <img src="img/casa.jpg" width="160" height="120" longdesc="img/casa.jpg" >
+    </div>
+    
+    <p>     
+    <h1 align="center" style="color:#F60"> <em> BIENVENIDO </em></h1>
+    <h3 align="justify">  	Aqui encontraras una gama de catalogos
+     para decorar tu casa.
+     </h3> 
+     <br>   
+    </p>
+    
+ <ul data-role="listview" data-inset="true" data-filter="true" >
+		<li data-collapsed=""><a href="#page2">Sala</a></li>
+            <li><a href="#page3" data-transition="fade">Cocina</a></li>
+			<li><a href="#page4" data-transition="flip">Comedor</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4> Copyright © ®</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Salas</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4> <a href="#page"  data-role="button" data-icon="back">Regresar</a></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Página tres</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4><a href="#page" data-role="button" data-transition="flip">Regresar</a></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Página cuatro</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4><a href="#page" data-role="button"  data-icon="back"data-transition="slidedown">Regresar</a></h4>
+	</div>
+</div>
+
+</body>
+</html>
