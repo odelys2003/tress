@@ -1,17 +1,85 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns = "http://www.w3.org/ns/widgets"
-    xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.phonegap.example"
-    version   = "1.0.0">
-
-<name>Practica 1</name>
-
-<description>
-Practica b�sica
-</description>
-
-<author href="https://example.com" email="you@example.com">
-Elizabeth D�az Orea
-</author>
-
-</widget>
+<? Xml version = " 1.0 " codificación = " UTF-8 " ?>
+< widget  id = " com.phonegap.helloworld "  version = " 1.0.0 "  xmlns = " http://www.w3.org/ns/widgets "  xmlns : gap = " http://phonegap.com/ns/1.0 " >
+    < Nombre > Parctica </ nombre >
+    < Descripción >
+        Manejo de lista de Contactos
+    </ Description >
+    < Autor correo electrónico = " odelys2003@hotmail.com "  href = " http://phonegap.com " >
+        Elizabeth Díaz Orea
+    </ Autor >
+    < Contenido  src = " index.html " />
+    < Preferencia  nombre = " permisos "  valor = " ninguno " />
+    < Preferencia  nombre = " orientación "  valor = " default " />
+    < Preferencia  nombre = " meta-dispositivo "  valor = " universales " />
+    < Preferencia  nombre = " pantalla completa "  valor = " verdad " />
+    < Preferencia  nombre = " webviewbounce "  valor = " verdad " />
+    < Preferencia  nombre = " prerendered-icono de "  valor = " verdad " />
+    < Preferencia  nombre = " permanecer-en-vista web "  valor = " false " />
+    < Preferencia  nombre = " ios-statusbarstyle "  valor = " negro-opaco " />
+    < Preferencia  nombre = " detectar-tipos de datos "  valor = " verdad " />
+    < Preferencia  nombre = " salida-en-suspender "  valor = " false " />
+    < Preferencia  nombre = " show-splash-screen-spinner "  valor = " verdad " />
+    < Preferencia  nombre = " de pantalla de ocultación automática-splash "  valor = " verdad " />
+    < Preferencia  nombre = " disable-cursor "  valor = " false " />
+    < Preferencia  nombre = " android-minSdkVersion "  valor = " 7 " />
+    < Preferencia  nombre = " android-installLocation "  valor = " auto " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.battery-estado " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.camera " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.media de captura " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.console " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.contacts " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.device " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.device-motion " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.device-orientación " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.dialogs " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.file " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.file-transferencia " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.geolocation " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.globalization " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.inappbrowser " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.media " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.network-información " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.splashscreen " />
+    < Brecha : Plugin  nombre = " org.apache.cordova.vibration " />
+    < Icono  src = " icon.png " />
+    < Icono  brecha : la plataforma = " androide "  brecha : calificador = " LDPI "  src = " www / res / icono / android / icono-36-ldpi.png " />
+    < Icono  brecha : la plataforma = " androide "  brecha : calificador = " mdpi "  src = " www / res / icono / android / icono-48-mdpi.png " />
+    < Icono  brecha : la plataforma = " androide "  brecha : calificador = " IPAP "  src = " www / res / icono / android / icono-72-hdpi.png " />
+    < Icono  brecha : la plataforma = " androide "  brecha : calificador = " xhdpi "  src = " www / res / icono / android / icono-96-xhdpi.png " />
+    < Icono  brecha : la plataforma = " mora "  src = " www / res / icono / Blackberry / icono-80.png " />
+    < Icono  brecha : la plataforma = " mora "  brecha : estado = " estacionario "  src = " www / res / icono / Blackberry / icono-80.png " />
+    < Icono  brecha : la plataforma = " ios "  altura = " 57 "  src = " www / res / icono / ios / icono-57.png "  ancho = " 57 " />
+    < Icono  brecha : la plataforma = " ios "  altura = " 72 "  src = " www / res / icono / ios / icono-72.png "  ancho = " 72 " />
+    < Icono  brecha : la plataforma = " ios "  altura = " 114 "  src = " www / res / icono / ios / icono-57-2x.png "  ancho = " 114 " />
+    < Icono  brecha : la plataforma = " ios "  altura = " 144 "  src = " www / res / icono / ios / icono-72-2x.png "  ancho = " 144 " />
+    < Icono  brecha : la plataforma = " webos "  src = " www / res / icono / webos / icono-64.png " />
+    < Icono  brecha : la plataforma = " WinPhone "  src = " www / res / icono / windows-phone / icono-48.png " />
+    < icon  gap : platform = " winphone "  gap : role = " background "  src = " www/res/icon/windows-phone/icon-173-tile.png " />
+    < gap : splash  gap : platform = " android "  gap : qualifier = " port-ldpi "  src = " www/res/screen/android/screen-ldpi-portrait.png " />
+    < gap : splash  gap : platform = " android "  gap : qualifier = " port-mdpi "  src = " www/res/screen/android/screen-mdpi-portrait.png " />
+    < gap : splash  gap : platform = " android "  gap : qualifier = " port-hdpi "  src = " www/res/screen/android/screen-hdpi-portrait.png " />
+    < gap : splash  gap : platform = " android "  gap : qualifier = " port-xhdpi "  src = " www/res/screen/android/screen-xhdpi-portrait.png " />
+    < Brecha : salpicaduras  brecha : la plataforma = " mora "  src = " www / res / pantalla / Blackberry / pantalla-225.png " />
+    < gap : splash  gap : platform = " ios "  height = " 480 "  src = " www/res/screen/ios/screen-iphone-portrait.png "  width = " 320 " />
+    < gap : splash  gap : platform = " ios "  height = " 960 "  src = " www/res/screen/ios/screen-iphone-portrait-2x.png "  width = " 640 " />
+    < gap : splash  gap : platform = " ios "  height = " 1136 "  src = " www/res/screen/ios/screen-iphone-portrait-568h-2x.png "  width = " 640 " />
+    < gap : splash  gap : platform = " ios "  height = " 1024 "  src = " www/res/screen/ios/screen-ipad-portrait.png "  width = " 768 " />
+    < gap : splash  gap : platform = " ios "  height = " 768 "  src = " www/res/screen/ios/screen-ipad-landscape.png "  width = " 1024 " />
+    < Brecha : salpicaduras  brecha : la plataforma = " WinPhone "  src = " www / res / pantalla / ventanas de teléfono / pantalla-portrait.jpg " />
+    < Acceso  origen = " * " />
+    < Plugin de  nombre = " cordova-plugin-lista blanca "  versión = " 1 " />
+    < Allow-intención  href = " http: // * / * " />
+    < Allow-intención  href = " https: // * / * " />
+    < Allow-intención  href = " tel: * " />
+    < Allow-intención  href = " SMS: * " />
+    < Allow-intención  href = " mailto: * " />
+    < Allow-intención  href = " geo: * " />
+    < Plataforma de  nombre = " androide " >
+        < Allow-intención  href = " mercado: * " />
+    </ Plataforma >
+    < Plataforma de  nombre = " ios " >
+        < Allow-intención  href = " itms: * " />
+        < Allow-intención  href = " ITMS-apps: * " />
+    </ Plataforma >
+    < Motor de  nombre = " androide "  spec = " ^ 4.0.0 " />
+</ Reproductor >
